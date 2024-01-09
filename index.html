@@ -19,20 +19,123 @@
         <div class="logo">Logo</div>
         <nav>
           <ul class="nav-list">
-            <li>News</li>
-            <li>News</li>
-            <li>News</li>
-            <li>News</li>
-            <li>News</li>
-            <li>Contact Us</li>
+            <li><a class="nav-list-item" href="#">News</a></li>
+            <li><a class="nav-list-item" href="#">News</a></li>
+            <li><a class="nav-list-item" href="#">News</a></li>
+            <li><a class="nav-list-item" href="#">News</a></li>
+            <li><a class="nav-list-item" href="#">News</a></li>
+            <li><a class="nav-list-item" href="#">Contact Us</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main class="main">
       <div class="container">
-        <section>Hero</section>
-        <section>More News</section>
+        <section class="hero-main">
+          <nav>
+            <div>
+              <a class="hero-nav" href="#">Cryptocurrencies</a>
+              <span>></span>
+              <a class="hero-nav" href="#">Bitcoin</a>
+              <span>></span>
+              <a class="hero-nav" href="#">News</a>
+            </div>
+          </nav>
+          <div class="hero-title-wrap">
+            <h1 class="hero-title">The Scalability Solution: Understanding Layer One vs. Layer Two Blockchains</h1>
+            <p class="news-date">20 Sep 2023, 8:00pm</p>
+            <p class="news-author">by Alex House</p>
+          </div>
+          <div class="hero-img">
+            <img srcset="./images/hero@1x.png, ./images/hero@2x.png 2x" alt="Bitcoin" class="hero-img" />
+          </div>
+          <div class="article">
+            <p>Layer one or L1 refers to a base blockchain protocol like Bitcoin or Ethereum. These networks operate on a decentralized ledger secured by <span> <a class="article-nav" href="#">(PoW) mining or proof-of-stake (PoS) staking</a></span>. L1 chains such as Bitcoin and Ethereum offer unparalleled security. However, during peak times, both of these chains grapple with sluggish transaction speeds and steep fees.</p>
+        
+            <p>Developers from several L1 networks are working to improve layer one scaling through methods like <span> <a class="article-nav" href="#">increasing</a></span> block size, <span> <a class="article-nav" href="#">sharding</a></span>, and <a class="article-nav" href="#">introducing</a></span> proof-of-stake consensus. However, substantial layer one upgrades require coordination among node operators and can take years to implement. Some blockchains intend to use L2 protocols as either a temporary or long-term solution.</p>
+        
+            <p>Bitcoin’s <a class="article-nav" href="#">Lightning Network</a></span> (LN) is a second-layer scaling solution designed to facilitate faster, low-cost transactions on the Bitcoin blockchain (L1). It operates on top of Bitcoin’s base layer, allowing for instant payments by circumventing the need for block confirmations.</p>
+        
+            <p>Transactions on the Lightning Network occur off-chain in payment channels between users. Only channel open and close transactions are recorded on the Bitcoin blockchain. Participants can transact multiple times within these channels, reducing congestion and fees on L1.</p>
+        
+            <p>Critics target LN for its prevalent use of custodial wallets, as these demand users place trust in third parties to handle their money. Moreover, the off-chain method poses a risk: if nodes lack proper backup, it could trigger an irrevocable loss of funds.</p>
+        
+            <p>Loopring uses zero-knowledge rollups (<a class="article-nav" href="#">ZK-rollups</a></span>) to batch hundreds of transactions off-chain and generate a cryptographic proof verifying their validity. This proof is submitted to layer one (Ethereum), avoiding the need to process each transaction on-chain.</p>
+
+            <p>Polygon ZKEVM also uses ZK-rollup technology to offer high throughput Ethereum transactions with lower fees. On the risk side, some believe that relying heavily on ZK-rollups can introduce <a class="article-nav" href="#">centralization risks</a></span> as validators and sequencers become key to the system.</p>
+          </div>
+        </section>
+        <section class="other-news">
+          <h2>More News</h2>
+          <ul class="news-list">
+            <li class="news-list-item"> 
+              <div class="img-wrap">
+                <img srcset="./images/small_image1_1@x.png, ./images/small_image1_2@x.png 2x" alt="Code" class="other-news-img" />
+              </div>
+              <div class="news-wrap">
+                <h2>U.S. downs suspected Chinese spy balloon</h2>
+                <p>China called the vessel’s downing “an excessive reaction” and said it “retains the right to respond...</p>
+                <p>Craig Bator - 27 Dec 2020</p>
+              </div>
+            </li>
+            <li class="news-list-item"> 
+              <div class="img-wrap"><img srcset="./images/small_image2_1@x.png, ./images/small_image2_2@x.png 2x" alt="Bitcoin" class="other-news-img" /></div>
+              <div class="news-wrap">
+                <h2>U.S. downs suspected Chinese spy balloon</h2>
+                <p>China called the vessel’s downing “an excessive reaction” and said it “retains the right to respond...</p>
+                <p>Craig Bator - 27 Dec 2020</p>
+              </div>
+            </li>
+            <li class="news-list-item"> 
+              <div class="img-wrap"><img srcset="./images/small_image3_1@x.png, ./images/small_image3_2@x.png 2x" alt="Bitcoins" class="other-news-img" /></div>
+              <div class="news-wrap">
+                <h2>U.S. downs suspected Chinese spy balloon</h2>
+                <p>China called the vessel’s downing “an excessive reaction” and said it “retains the right to respond...</p>
+                <p>Craig Bator - 27 Dec 2020</p>
+              </div>
+            </li>
+            <li class="news-list-item"> 
+              <div class="img-wrap"><img srcset="./images/small_image4_1@x.png, ./images/small_image4_2@x.png 2x" alt="Lightcoins" class="other-news-img" /></div>
+              <div class="news-wrap">
+                <h2>U.S. downs suspected Chinese spy balloon</h2>
+                <p>China called the vessel’s downing “an excessive reaction” and said it “retains the right to respond...</p>
+                <p>Craig Bator - 27 Dec 2020</p>
+              </div>
+            </li>
+            <li class="news-list-item"> 
+              <div class="img-wrap"><img srcset="./images/small_image5_1@x.png, ./images/small_image5_2@x.png 2x" alt="Light cubes in darkness" class="other-news-img" /></div>
+              <div class="news-wrap">
+                <h2>U.S. downs suspected Chinese spy balloon</h2>
+                <p>China called the vessel’s downing “an excessive reaction” and said it “retains the right to respond...</p>
+                <p>Craig Bator - 27 Dec 2020</p>
+              </div>
+            </li>
+            <li class="news-list-item"> 
+              <div class="img-wrap"><img srcset="./images/small_image6_1@x.png, ./images/small_image6_2@x.png 2x" alt="Phone with opened cryptotrading app" class="other-news-img" /></div>
+              <div class="news-wrap">
+                <h2>U.S. downs suspected Chinese spy balloon</h2>
+                <p>China called the vessel’s downing “an excessive reaction” and said it “retains the right to respond...</p>
+                <p>Craig Bator - 27 Dec 2020</p>
+              </div>
+            </li>
+            <li class="news-list-item"> 
+              <div class="img-wrap"><img srcset="./images/small_image7_1@x.png, ./images/small_image7_2@x.png 2x" alt="Phone with opened cryptotrading app" class="other-news-img" /></div>
+              <div class="news-wrap">
+                <h2>U.S. downs suspected Chinese spy balloon</h2>
+                <p>China called the vessel’s downing “an excessive reaction” and said it “retains the right to respond...</p>
+                <p>Craig Bator - 27 Dec 2020</p>
+              </div>
+            </li>
+            <li> 
+              <div class="img-wrap"><img srcset="./images/small_image8_1@x.png, ./images/small_image8_2@x.png 2x" alt="Bitcoins and drawn bulldog" class="other-news-img" /></div>
+              <div class="news-wrap">
+                <h2>U.S. downs suspected Chinese spy balloon</h2>
+                <p>China called the vessel’s downing “an excessive reaction” and said it “retains the right to respond...</p>
+                <p>Craig Bator - 27 Dec 2020</p>
+              </div>
+            </li>
+          </ul>
+        </section>
       </div>
     </main>
     <footer class="footer">
