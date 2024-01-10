@@ -1,1 +1,1 @@
-# NewsPage
+# NewsPage - grid practice
